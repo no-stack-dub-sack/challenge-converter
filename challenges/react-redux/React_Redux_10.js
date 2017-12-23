@@ -1,6 +1,6 @@
 /* eslint-disable */
-import assert from 'assert'
-import { transform } from 'babel-standalone'
+// import assert from 'assert'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
@@ -23,7 +23,7 @@ export const challengeInstructions = `<span class = 'default'>Instructions: </sp
 
 // ---------------------------- define challenge seed code ----------------------------
 export const seedCode =
-`import React from 'react'
+`// import React from 'react';
 import ReactDOM from 'react-dom'
 import { Provider, connect } from 'react-redux'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
@@ -49,7 +49,7 @@ ReactDOM.render(
 
 // ---------------------------- define challenge solution code ----------------------------
 export const solutionCode =
-`import React from 'react'
+`// import React from 'react';
 import ReactDOM from 'react-dom'
 import { Provider, connect } from 'react-redux'
 import { createStore, combineReducers, applyMiddleware } from 'redux'

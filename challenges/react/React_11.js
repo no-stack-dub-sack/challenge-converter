@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow, mount} from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
@@ -11,12 +11,10 @@ export const QA = true;
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Compose React Components`
 
 // ---------------------------- challenge text ----------------------------
-export const challengeText = `<span class = 'default'>Intro: </span>
-As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.`
+export const challengeText = `<span class = 'default'>Intro: </span>As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.`
 
 // ---------------------------- challenge instructions ----------------------------
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-In the code editor, the <code>TypesOfFood</code> component is already rendering a component called <code>Vegetables</code>. Also, there is the <code>Fruits</code> component from the last challenge.
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>In the code editor, the <code>TypesOfFood</code> component is already rendering a component called <code>Vegetables</code>. Also, there is the <code>Fruits</code> component from the last challenge.
 Nest two components inside of <code>Fruits</code> &mdash; first <code>NonCitrus</code>, and then <code>Citrus</code>. Both of these components are provided for you in the background. Next, nest the <code>Fruits</code> class component into the the <code>TypesOfFood</code> component, below the <code>h1</code> header and above <code>Vegetables</code>. The result should be a series of nested components, which uses two different component types.`
 
 // ---------------------------- define challenge seed code ----------------------------

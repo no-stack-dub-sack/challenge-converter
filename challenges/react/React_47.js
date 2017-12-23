@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow, mount } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
@@ -11,15 +11,13 @@ export const QA = true;
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Use Array.map() to Dynamically Render Elements`
 
 // ---------------------------- challenge text ----------------------------
-export const challengeText = `<span class = 'default'>Intro: </span>
-Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using <code>Array.map()</code> in React illustrates this concept.
+export const challengeText = `<span class = 'default'>Intro: </span>Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using <code>Array.map()</code> in React illustrates this concept.
 <br><br>
 
 For example, you create a simple "To Do List" app. As the programmer, you have no way of knowing how many items a user might have on their list. You need to set up your component to <em><strong>dynamically render</strong></em> the correct number of list elements long before someone using the program decides that today is laundry day. `
 
 // ---------------------------- challenge instructions ----------------------------
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-The code editor has most of the <code>MyToDoList</code> component set up. Some of this code should look familiar if you completed the controlled form challenge. You'll notice a <code>textarea</code> and a <code>button</code>, along with a couple of methods that track their states, but nothing is rendered to the page yet.
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>The code editor has most of the <code>MyToDoList</code> component set up. Some of this code should look familiar if you completed the controlled form challenge. You'll notice a <code>textarea</code> and a <code>button</code>, along with a couple of methods that track their states, but nothing is rendered to the page yet.
 <br><br>
 
 Inside the <code>constructor</code>, create a <code>this.state</code> object and define two states: <code>userInput</code> should be initialized as an empty string, and <code>toDoList</code> should be initialized as an empty array. Next, delete the comment in the <code>render()</code> method next to the <code>items</code> variable. In its place, map over the <code>toDoList</code> array stored in the component's internal state and dynamically render a <code>li</code> for each item. Try entering the string <code>eat, code, sleep, repeat</code> into the <code>textarea</code>, then click the button and see what happens.

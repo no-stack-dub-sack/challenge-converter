@@ -6,12 +6,16 @@
   "required": [
     {
       "src": "https://cdnjs.cloudflare.com/ajax/libs/react/16.1.1/umd/react.development.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.1.1/umd/react-dom.development.js"
     }
   ],
   "challenges": [
     {
       "id": "587d7dbc367417b2b2512bb1",
       "title": "Create a Simple JSX Element",
+      "releasedOn": "December 25, 2017",
       "description": [
         "<strong>Intro:</strong> React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.",
         "React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript. This has several benefits. It lets you use the full programmatic power of JavaScript within HTML, and helps to keep your code readable. For the most part, JSX is similar to the HTML that you have already learned, however there are a few key differences that will be covered throughout these challenges.",
@@ -36,9 +40,15 @@
         "assert(Enzyme.shallow(jsx).type() === 'h1', 'message: The constant JSX should return an <code>h1</code> element.');",
         "assert(Enzyme.shallow(jsx).contains( 'Hello JSX!'), 'message: The <code>h1</code> tag should include the text <code>Hello JSX!</code>');"
       ],
+      "head": [],
+      "tail": [],
+      "solutions": [
+        "const jsx = <h1>Hello JSX!</h1>;"
+      ],
       "type": "modern",
       "isRequired": false,
-      "translations": {}
+      "translations": {},
+      "react": true
     }
   ]
 }

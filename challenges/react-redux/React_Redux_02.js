@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
-import { mount } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import React from 'react';
+// import assert from 'assert'
+// import { mount } from 'enzyme';
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;

@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow, mount } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;

@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow, mount } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
@@ -11,14 +11,12 @@ export const QA = true;
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Access Props Using this.props`
 
 // ---------------------------- challenge text ----------------------------
-export const challengeText = `<span class = 'default'>Intro: </span>
-The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.<br><br>
+export const challengeText = `<span class = 'default'>Intro: </span>The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.<br><br>
 
 Anytime you refer to a class component within itself, you use the <code>this</code> keyword. To access props within a class component, you preface the code that you use to access it with <code>this</code>. For example, if an ES6 class component has a prop called <code>data</code>, you write <code>{this.props.data}</code> in JSX.`
 
 // ---------------------------- challenge instructions ----------------------------
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-Render an instance of the <code>ReturnTempPassword</code> component in the parent component <code>ResetPassword</code>. Here, give <code>ReturnTempPassword</code> a prop of <code>tempPassword</code> and assign it a value of a string that is at least 8 characters long. Within the child, <code>ReturnTempPassword</code>, access the <code>tempPassword</code> prop within the <code>strong</code> tags to make sure the user sees the temporary password.`
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>Render an instance of the <code>ReturnTempPassword</code> component in the parent component <code>ResetPassword</code>. Here, give <code>ReturnTempPassword</code> a prop of <code>tempPassword</code> and assign it a value of a string that is at least 8 characters long. Within the child, <code>ReturnTempPassword</code>, access the <code>tempPassword</code> prop within the <code>strong</code> tags to make sure the user sees the temporary password.`
 
 // ---------------------------- define challenge seed code ----------------------------
 export const seedCode =

@@ -1,21 +1,19 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
 
 // -------------- define challenge title and challenge instructions --------------
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Add Comments in JSX`
-export const challengeText = `<span class = 'default'>Intro: </span>
-JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.<br><br>
+export const challengeText = `<span class = 'default'>Intro: </span>JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.<br><br>
 
 To put comments inside JSX, you use the syntax <code>{/* */}</code> to wrap around the comment text.`
 
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-The code editor has a JSX element similar to what you created in the last challenge. Add a comment somewhere within the provided <code>div</code> element, without
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>The code editor has a JSX element similar to what you created in the last challenge. Add a comment somewhere within the provided <code>div</code> element, without
 modifying the existing <code>h1</code> or <code>p</code> elements.`
 
 // ---------------------------- define challenge seed code ----------------------------

@@ -1,17 +1,15 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
 
 // -------------- define challenge title and challenge instructions --------------
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Create a Complex JSX Element`
-export const challengeText = `<span class = 'default'>Intro: </span>
-
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
+export const challengeText = `<span class = 'default'>Intro: </span>The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 One important thing to know about nested JSX is that it must return a single element.
 This one parent element would wrap all of the other levels of nested elements.
 For instance, several JSX elements written as siblings with no parent wrapper element will not transpile.
@@ -41,8 +39,7 @@ Here's an example:
 //<code><blockquote>const JSXValid = (<br>&lt;section&gt;<br>&nbsp;&nbsp;&lt;article&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;First article&lt;/p&gt;<br>&nbsp;&nbsp;&lt;/article&gt;<br>&nbsp;&nbsp;&lt;article&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Second article&lt;/p&gt;<br>&nbsp;&nbsp;&lt;/article&gt;<br>&lt;/section&gt;);const JSXNotValid = (<br>&lt;article&gt;<br>&nbsp;&nbsp;&lt;p&gt;First article&lt;/p&gt;<br>&lt;/article&gt;<br>&lt;article&gt;<br>&nbsp;&nbsp;&lt;p&gt;Second article&lt;/p&gt;<br>&lt;/article&gt;);</blockquote></code>
 // ^^Multi-line code example follows current FCC formatting once the code tags (wrapping the blockquote) are removed
 
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-Define a new constant <code>JSX</code> that renders a <code>div</code> which contains the following elements in order:
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>Define a new constant <code>JSX</code> that renders a <code>div</code> which contains the following elements in order:
 An <code>h1</code>, a <code>p</code>, and an unordered list that contains three <code>li</code> items. You can include any text you want within each element.<br><br>
 
 <strong>Note:</strong>&nbsp;When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a <code>div</code> tag to wrap all the child elements within a single parent element. If you remove the <code>div</code>, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.`

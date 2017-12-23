@@ -1,8 +1,8 @@
 /* eslint-disable */
-import assert from 'assert'
-import deepEqual from 'deep-equal';
-import deepFreeze from 'deep-freeze';
-import { transform } from 'babel-standalone'
+// import assert from 'assert'
+// import deepEqual from 'deep-equal';
+// import deepFreeze from 'deep-freeze';
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;

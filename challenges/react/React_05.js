@@ -1,24 +1,22 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { shallow } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
 
 // -------------- define challenge title and challenge instructions --------------
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Define an HTML Class in JSX`
-export const challengeText = `<span class = 'default'>Intro: </span>
-Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
+export const challengeText = `<span class = 'default'>Intro: </span>Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
 So far, it may seem that HTML and JSX are exactly the same.<br><br>
 
 One key difference in JSX is that you can no longer use the word <code>class</code> to define HTML classes. This is because <code>class</code> is a reserved word in JavaScript. Instead, JSX uses <code>className</code>.<br><br>
 
 In fact, the naming convention for all HTML attributes and event references in JSX become camelCase. For example, a click event in JSX is <code>onClick</code>, instead of <code>onclick</code>. Likewise, <code>onchange</code> becomes <code>onChange</code>. While this is a subtle difference, it is an important one to keep in mind moving forward.`
 
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-Apply a class of <code>myDiv</code> to the <code>div</code> provided in the JSX code.`
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>Apply a class of <code>myDiv</code> to the <code>div</code> provided in the JSX code.`
 
 // ---------------------------- define challenge seed code ----------------------------
 export const seedCode =

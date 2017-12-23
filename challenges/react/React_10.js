@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react'
-import assert from 'assert'
+// import React from 'react';
+// import assert from 'assert'
 import { render/**/, shallow, mount } from 'enzyme'
-import { transform } from 'babel-standalone'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
@@ -10,13 +10,11 @@ export const QA = true;
 // -------------- define challenge title and challenge instructions --------------
 export const challengeTitle = `<span class = 'default'>Challenge: </span>Use React to Render Nested Components`
 
-export const challengeText = `<span class = 'default'>Intro: </span>
-The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.<br><br>
+export const challengeText = `<span class = 'default'>Intro: </span>The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.<br><br>
 
 Component composition is one of React's powerful features. When you work with React, it is important to start thinking about your user interface in terms of components like the App example in the last challenge. You break down your UI into its basic building blocks, and those pieces become the components. This helps to separate the code responsible for the UI from the code responsible for handling your application logic. It can greatly simplify the development and maintenance of complex projects.`
 
-export const challengeInstructions = `<span class = 'default'>Instructions: </span>
-There are two functional components defined in the code editor, called <code>TypesOfFruit</code> and <code>Fruits</code>. Take the <code>TypesOfFruit</code> component and compose it, or <em>nest</em> it, within the <code>Fruits</code> component. Then take the <code>Fruits</code> component and nest it within the <code>TypesOfFood</code> component. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!`
+export const challengeInstructions = `<span class = 'default'>Instructions: </span>There are two functional components defined in the code editor, called <code>TypesOfFruit</code> and <code>Fruits</code>. Take the <code>TypesOfFruit</code> component and compose it, or <em>nest</em> it, within the <code>Fruits</code> component. Then take the <code>Fruits</code> component and nest it within the <code>TypesOfFood</code> component. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!`
 
 // ---------------------------- define challenge seed code ----------------------------
 export const seedCode =

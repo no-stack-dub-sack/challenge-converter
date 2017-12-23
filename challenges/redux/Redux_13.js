@@ -1,6 +1,6 @@
 /* eslint-disable */
-import assert from 'assert'
-import { transform } from 'babel-standalone'
+// import assert from 'assert'
+// import { transform } from 'babel-standalone';
 
 // SET TO TRUE WHEN QA IS COMPLETE:
 export const QA = true;
