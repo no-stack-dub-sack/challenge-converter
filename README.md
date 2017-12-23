@@ -12,6 +12,8 @@ This tool cut down what might have taken several days (no joke), to only about 3
 
 That's it! And just like magic, you have over 4000 lines of otherwise arduously constructed JSON.
 
+To see this in action, just clone the project and take a look at the seed files in the `src/target/` directory. Then run `yarn install` and then `yarn run convert`, wait til the operation completes, and then take a look at the files again. Voilà! 
+
 This utility saved us an unspeakable amount of time, formatted all 78 challenges nearly perfectly, and allowed us to focus on refactoring our tests to be compatible with the latest version of Enzyme. Yay.
 
 The final result can be seen at https://beta.freeCodeCamp.com > Front End Libraries (soon to be part of the core curriculum on https://freeCodeCamp.org).
